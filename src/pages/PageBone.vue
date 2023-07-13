@@ -8,7 +8,9 @@
         <el-aside width="200px">
           <CommonAside/>
         </el-aside>
-        <el-main>Main</el-main>
+        <el-main>
+          <router-view/>
+        </el-main>
       </el-container>
     </el-container>
   </div>
