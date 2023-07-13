@@ -1,10 +1,10 @@
 <template>
-<h1>Data governance</h1>
+<h1> Governance Data</h1>
 </template>
 
 <script>
 export default {
-  name: "GovernanceData"
+  name: "governanceData"
 }
 </script>
 
