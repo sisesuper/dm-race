@@ -2,11 +2,9 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import pageBone from "@/pages/PageBone";
 import dataDetail from "@/pages/DataDetail";
-import addDataSource from "@/pages/AddDataSource";
-import updateDataSource from "@/pages/UpdateDataSource";
-import delDataSource from "@/pages/DelDataSource";
-import governanceData from "@/pages/GovernanceData";
 import APIService from "@/pages/APIService";
+import manageData from "@/pages/ManageData";
+import governanceData from "@/pages/GovernanceData";
 
 Vue.use(VueRouter);
 
@@ -26,20 +24,12 @@ const router = new VueRouter({
                     component:dataDetail
                 },
                 {
-                    path:'addDataSource',
-                    component:addDataSource
-                },
-                {
-                    path:'updateDataSource',
-                    component:updateDataSource
-                },
-                {
-                    path:'delDataSource',
-                    component:delDataSource
-                },
-                {
                     path:'governanceData',
                     component:governanceData
+                },
+                {
+                    path:'manageData',
+                    component:manageData
                 },
                 {
                     path:'apiService',

@@ -1,10 +1,10 @@
 <template>
-<h1>DelDataSource</h1>
+<h1>manage DataSource</h1>
 </template>
 
 <script>
 export default {
-  name: "addDataSource"
+  name: "manageDataSource"
 }
 </script>
 
